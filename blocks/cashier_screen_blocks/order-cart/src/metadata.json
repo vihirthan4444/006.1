@@ -1,0 +1,16 @@
+{
+    "id": "order-cart",
+    "name": "Order Cart",
+    "version": "1.0.0",
+    "type": "business",
+    "network": "offline",
+    "permissionsProvided": [],
+    "dependsOn": [],
+    "uiSlots": [
+        "panel",
+        "sidebar"
+    ],
+    "position": "right",
+    "icon": "🛒",
+    "description": "Manages the current order."
+}

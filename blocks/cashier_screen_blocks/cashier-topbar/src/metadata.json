@@ -1,0 +1,15 @@
+{
+    "id": "cashier-topbar",
+    "name": "Cashier Topbar",
+    "version": "1.0.0",
+    "type": "business",
+    "network": "offline",
+    "permissionsProvided": [],
+    "dependsOn": [],
+    "uiSlots": [
+        "statusbar"
+    ],
+    "position": "top",
+    "icon": "🍽️",
+    "description": "Top bar information for cashier."
+}

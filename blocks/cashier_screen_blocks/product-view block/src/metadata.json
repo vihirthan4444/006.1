@@ -1,0 +1,15 @@
+{
+    "id": "product-view",
+    "name": "Product View",
+    "version": "1.0.0",
+    "type": "business",
+    "network": "offline",
+    "permissionsProvided": [],
+    "dependsOn": [],
+    "uiSlots": [
+        "main"
+    ],
+    "position": "main",
+    "icon": "🍕",
+    "description": "Displays the product grid for the cashier."
+}

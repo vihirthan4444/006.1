@@ -1,0 +1,12 @@
+{
+    "name": "order-cart",
+    "version": "1.0.0",
+    "description": "Order Cart Block",
+    "main": "dist/main.js",
+    "scripts": {
+        "build": "echo 'Building order-cart...'"
+    },
+    "peerDependencies": {
+        "react": "*"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "cashier-topbar",
+    "version": "1.0.0",
+    "description": "Cashier Topbar Block",
+    "main": "dist/main.js",
+    "scripts": {
+        "build": "echo 'Building cashier-topbar...'"
+    },
+    "peerDependencies": {
+        "react": "*"
+    }
+}
