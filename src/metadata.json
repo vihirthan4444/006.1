@@ -1,0 +1,23 @@
+{
+    "id": "cashier.restaurant",
+    "name": "Restaurant Cashier",
+    "version": "1.0.0",
+    "type": "business",
+    "description": "Point of sale system for restaurants with table management and order tracking",
+    "author": "System",
+    "icon": "🍽️",
+    "network": "optional",
+    "dependsOn": [
+        "core.db"
+    ],
+    "permissions": [
+        "cashier.create",
+        "cashier.read",
+        "cashier.update"
+    ],
+    "uiSlots": [
+        "sidebar",
+        "main"
+    ],
+    "entryPoint": "dist/cashier-block.bundle.js"
+}
