@@ -12,5 +12,7 @@
     ],
     "position": "right",
     "icon": "🛒",
-    "description": "Manages the current order."
+    "description": "Manages the current order.",
+    "author": "Internal",
+    "entryPoint": "dist/main.js"
 }

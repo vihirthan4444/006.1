@@ -11,5 +11,7 @@
     ],
     "position": "top",
     "icon": "🍽️",
-    "description": "Top bar information for cashier."
+    "description": "Top bar information for cashier.",
+    "author": "Internal",
+    "entryPoint": "dist/main.js"
 }
