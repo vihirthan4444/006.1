@@ -1,0 +1,32 @@
+{
+    "id": "product-view",
+    "name": "Product View",
+    "version": "1.0.0",
+    "description": "Display products in a grid with category filtering",
+    "icon": "🍕",
+    "inputs": [
+        {
+            "id": "menu-items",
+            "label": "Menu Items",
+            "type": "MenuItem[]",
+            "required": true,
+            "description": "List of products to display"
+        },
+        {
+            "id": "selected-category",
+            "label": "Category Filter",
+            "type": "string",
+            "required": false,
+            "default": "all",
+            "description": "Filter products by category"
+        }
+    ],
+    "outputs": [
+        {
+            "id": "product-selected",
+            "label": "Product Selected",
+            "type": "MenuItem",
+            "description": "Emitted when user clicks a product card"
+        }
+    ]
+}
